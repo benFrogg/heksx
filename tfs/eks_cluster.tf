@@ -18,7 +18,7 @@ module "eks" {
       max_size     = 3
       min_size     = 2
 
-      instance_types = ["m6i.large"] # Change to G5 if higher requirement is needed
+      instance_types = ["m6i.large"] # Change to G5 series if higher performance is needed
 
       tags = {
         "Name"    = "heksx-workers"
